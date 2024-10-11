@@ -1,4 +1,5 @@
 import rimage from "./lasagna-5994612.jpg" ;
+import "./styles.css"
 
 export const pageload = function(){
     document.addEventListener("DOMContentLoaded", () => {
