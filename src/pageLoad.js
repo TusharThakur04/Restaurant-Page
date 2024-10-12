@@ -1,5 +1,4 @@
 import rimage from "./lasagna-5994612.jpg" ;
-import "./styles.css"
 
 export const pageload = function(){
     document.addEventListener("DOMContentLoaded", () => {
@@ -15,14 +14,21 @@ export const pageload = function(){
         head.innerHTML=newText ;
         div.appendChild(head) ;
         
+        const div2 = document.createElement('div') ;
+        div2.className = 'image' ;
+        div.appendChild(div2) ;
+
         const image = document.createElement('img') ;
         image.src = rimage ;
-        div.appendChild(image);
+        div2.appendChild(image);
+
+        const div3 = document.createElement('div') ;
+        div3.className = 'description' ;
+        div.appendChild(div3);
         
         const desc = document.createElement('div') ;
-        desc.className = "description" ;
         desc.textContent = "Welcome to Flavorscape, where every dish is a journey into the world of flavor and creativity. Our chefs are dedicated to blending traditional techniques with modern innovation, crafting dishes that are both visually stunning and irresistibly delicious. Whether you're in the mood for a light snack or a full-course meal, our menu offers a variety of options to satisfy every craving. Our atmosphere is designed to complement the culinary experience—inviting, elegant, and perfect for everything from intimate dinners to special celebrations. Join us for a memorable meal and savor the flavors that make us stand out."
-        div.appendChild(desc);
+        div3.appendChild(desc);
         
         
         });
