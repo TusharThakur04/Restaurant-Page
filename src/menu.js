@@ -2,7 +2,7 @@ export const menuload = function(){
     document.addEventListener("DOMContentLoaded", () => {
         const div = document.querySelector('#content');
         const div2 = document.createElement('div');
-        div.className= 'menu';
+        div2.className= 'menu';
         div.appendChild(div2);
         const list  = document.createElement('ul');
         div2.appendChild(list) ;
@@ -14,7 +14,7 @@ export const menuload = function(){
             "Lavender Crème Brûlée"
           ];
 
-        for(let i=0 ; menu.length; i++){
+        for(let i=0 ; i < menu.length; i++){
             const li = document.createElement('li');
             li.textContent= menu[i];
             list.appendChild(li);
