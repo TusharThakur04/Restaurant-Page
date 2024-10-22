@@ -9,9 +9,10 @@ if (process.env.NODE_ENV !== 'production') {
   }
 
 document.addEventListener('DOMContentLoaded' , () =>{
+
     const homeButton = document.querySelector('.home');
     const menuButton = document.querySelector('.menu');
-    const aboutButton = document.querySelector('.about');
+    const aboutButton = document.querySelector('.about')
 
     function clearContent() {
         const contentDiv = document.querySelector('#content'); 
