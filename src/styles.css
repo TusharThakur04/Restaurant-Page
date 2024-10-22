@@ -1,62 +1,58 @@
-body{
-    background-color: #a9957b;
+body {
+  background-color: #a9957b;
 }
 
-header{
-    background-color: #bdaa93;
-    margin-top: 0px;
-
+header {
+  background-color: #bdaa93;
+  margin-top: 0px;
 }
 
-nav{
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-
+nav {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-nav button{
-    height: 60px;
-    width: 90px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-#content{
-    margin-top: 15px;
-
-}
-.headline{
-    margin-bottom: 20px;
-    text-align: center;
-    font-size:200%;
-}
-.image{
-    height: 300px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-img{
-    height: 300px;
-    width: 500px;
-}
-.description{
-    margin-top: 30px;
-    display :flex;
-    align-items: center;
-    justify-content: center;
+nav button {
+  height: 60px;
+  width: 90px;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
-.description div{
-    width:700px;
-    font-size:150%;
-    text-align: center;
+#content {
+  margin-top: 15px;
+}
+.headline {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 200%;
+}
+.image {
+  height: 300px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 300px;
+  width: 500px;
+}
+.description {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.highlight{
-    font-style: italic ;
-    font-weight:700;
+.description div {
+  width: 700px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: 700;
 }
