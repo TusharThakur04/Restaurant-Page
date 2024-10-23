@@ -22,6 +22,8 @@ nav button {
 
 #content {
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .headline {
   margin-bottom: 20px;
@@ -55,4 +57,17 @@ img {
 .highlight {
   font-style: italic;
   font-weight: 700;
+}
+
+div.menu {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
