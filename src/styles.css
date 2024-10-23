@@ -61,7 +61,6 @@ img {
 
 div.menu {
   display: flex;
-
   align-items: center;
   justify-content: center;
   font-size: 200%;
@@ -70,4 +69,13 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+div.about {
+  display: flex;
+  flex-direction: column;
+  font-size: 150%;
+}
+p {
+  text-align: center;
 }

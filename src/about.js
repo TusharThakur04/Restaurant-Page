@@ -13,6 +13,15 @@ export const aboutload = function () {
   paragraphs.forEach((i) => {
     const p = document.createElement("p");
     p.textContent = i;
+    const add = "Nestled at 123 Culinary Avenue, Flavor City";
+    if (i.includes(add)) {
+      const ptext = p.textContent;
+      const ntext = ptext.replace(
+        add,
+        `<span class = "highlight"> ${add}</span>`,
+      );
+      p.innerHTML = ntext;
+    }
     div2.appendChild(p);
   });
 };
